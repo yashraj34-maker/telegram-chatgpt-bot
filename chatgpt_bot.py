@@ -16,7 +16,7 @@ def get_gpt_response(prompt):
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://t.me/YOUR_BOT_USERNAME",
+        "HTTP-Referer": "https://t.me/YOUR_BOT_USERNAME",  # optional
         "X-Title": "TelegramBot"
     }
     data = {
